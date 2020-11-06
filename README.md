@@ -22,7 +22,6 @@ To use the `arm20` package clone this repository into the `src` folder of your c
 
 Then build the workspace with `catkin_make`.
 
-In the `ros_turtle_bartender` directory using the `terminal` enter the `webserver` directory.
 
 In arm.xacro can change the scale, the model was create in mm
 
@@ -32,4 +31,4 @@ roslaunch arm20 arm_control.launch --> working on it
 roslaunch arm20 arm_world.launch  --> working on it 
 
 
-#
+
