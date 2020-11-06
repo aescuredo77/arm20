@@ -25,10 +25,10 @@ Then build the workspace with `catkin_make`.
 
 In arm.xacro can change the scale, the model was create in mm
 
-roslaunch arm20 view_demo.launch --> to view the arm.urdf model in rviz only in cm
-roslaunch arm20 display.launch   --> to view the arm.xacro model in rviz
-roslaunch arm20 arm_control.launch --> working on it
-roslaunch arm20 arm_world.launch  --> working on it 
+roslaunch arm20 view_demo.launch --> to view the arm.urdf model in rviz only in cm.
+roslaunch arm20 display.launch   --> to view the arm.xacro model in rviz.
+roslaunch arm20 arm_control.launch --> working on it.
+roslaunch arm20 arm_world.launch  --> working on it. 
 
 
 
