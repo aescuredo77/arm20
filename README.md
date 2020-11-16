@@ -18,7 +18,9 @@ This is part of the practices that I am doing in the course MAstering Robot orer
 rebuilt the package in the correct format and fixed some bugs. now we have three folders:
 
 -arm20_description
+
 -arm20_gazebo
+
 -arm20_control
 
 ![image info](./arm20/pictures/tree.png)
