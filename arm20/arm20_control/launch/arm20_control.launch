@@ -1,0 +1,24 @@
+<launch>
+    <!--Load joint controller configrations from YAML file to parametrer server -->
+    <rosparam file="$(find arm20_control)/config/arm20_control.yaml" command="load" />
+    
+    <!-- load the controllers -->
+    <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn= "false" output="screen"
+            ns="/rosarm" args="  joint_state_controller
+                                    joint1_position_controller
+                                    joint2_position_controller
+                                    joint3_position_controller
+                                    joint4_position_controller
+                                    joint5_position_controller
+                                    joint6_position_controller"/> 
+
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"  output="screen" respawn="false" >
+        <remap from="/joint_states" to="/arm20/joint_states"/>
+        
+        
+    </node>
+    
+    
+    
+
+</launch>
