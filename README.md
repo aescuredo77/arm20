@@ -17,9 +17,9 @@ This is part of the practices that I am doing in the course MAstering Robot orer
 
 rebuilt the package in the correct format and fixed some bugs. now we have three folders:
 
-arm20_description
-arm20_gazebo
-arm20_control
+-arm20_description
+-arm20_gazebo
+-arm20_control
 
 ![image info](./arm20/pictures/tree.png)
 
@@ -44,16 +44,21 @@ roslaunch arm20_control arm_control.launch --> to start the control
 
 ## Issues solved ##
 
--The model does not have the origins well placed, I have created some auxiliary links and auxiliary joints between the links to make it easier to assemble and articulate.With the coordinates of the model well, it is not necessary, but it is advisable to create an auxiliary link to visualize the position of the joint in the Preview URDF. 
+-The model does not have the origins well placed, I have created some auxiliary links and auxiliary joints between the links to make it easier to assemble and articulate.
+
+-With the coordinates of the model well, it is not necessary, but it is advisable to create an auxiliary link to visualize the position of the joint in the Preview URDF. 
 
 - 
 You have to add in all link fixed or not 
+```ruby
    <inertial>
             <origin xyz="${origin_linkX_xyz}" rpy="0.0 0.0 0.0"/>
             <mass value="1.0"/>
             <inertia ixx="1.01" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
-        </inertial>
-with values of mass = 1.0 ixx = 1.0 iyy = 1.0 izz = 1.0
+   </inertial>
+ ```  
+        
+With values of mass = 1.0 ixx = 1.0 iyy = 1.0 izz = 1.0
 
 
 
