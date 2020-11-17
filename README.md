@@ -56,11 +56,11 @@ You have to add in all link fixed or not
    <inertial>
             <origin xyz="${origin_linkX_xyz}" rpy="0.0 0.0 0.0"/>
             <mass value="1.0"/>
-            <inertia ixx="1.01" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+            <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
    </inertial>
  ```  
         
-With values of mass = 1.0 ixx = 1.0 iyy = 1.0 izz = 1.0
+
 
 
 
