@@ -1,0 +1,3 @@
+sensor_msgs/JointState joint_data	    # info of joint state from Rviz
+---
+string status		# respond when the work its done.
