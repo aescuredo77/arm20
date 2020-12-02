@@ -15,6 +15,11 @@ This is part of the practices that I am doing in the course MAstering Robot orer
 
 ## Update ##
 
+Add arm20_moveit following the tutorial and the SetupAssistant, I have managed to add the moveit to the arm model.
+
+![image info](./arm20/pictures/moveit_arm.png)
+
+
 rebuilt the package in the correct format and fixed some bugs. now we have three folders:
 
 -arm20_description
