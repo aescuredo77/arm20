@@ -69,7 +69,7 @@ If you don't have the robot and you want to test that it sends the commands by u
 
    rosrun send_arm_server.py
 
-##### Moveit #####
+##### Moveit#####
 I want to be able to give it a goal position x, y, z through a camera and let moveit do the inverse kinematics calculations to move the arm.
 
 
