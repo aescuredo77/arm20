@@ -59,7 +59,7 @@ In arm20.urdf.xacro can change the scale, the model was create in mm
 
    roslaunch arm20_control arm_control.launch --> to start the control 
 
-##### Rviz service demo#####
+##### Rviz service demo #####
 
 If you don't have the robot and you want to test that it sends the commands by udp, modify the ip, the port.In the future I hope to make the control that moves the simulator, but the gazebo model does not work well. Maybe with another model.
 
@@ -69,7 +69,7 @@ If you don't have the robot and you want to test that it sends the commands by u
 
    rosrun send_arm_server.py
 
-##### Moveit#####
+##### Moveit #####
 I want to be able to give it a goal position x, y, z through a camera and let moveit do the inverse kinematics calculations to move the arm.
 
 
