@@ -28,7 +28,7 @@ The arm does not have ROS, it is controlled with a Teensy 4.0 with an ESP8266 th
 
 The first test the service sent the order by UDP. It worked, but it stopped reading the status of the robot.
 
-![Watch the video](https://www.youtube.com/watch?v=GeI4ELki3co&feature=youtu.be)
+[![Watch the video](./arm20/pictures/video.png)](https://www.youtube.com/watch?v=GeI4ELki3co&feature=youtu.be)
 
 
 ##### Previous update #####
