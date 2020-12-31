@@ -93,11 +93,14 @@ You have to add in all link fixed or not
             <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
    </inertial>
  ```  
- ##### Issues update #####
+ 
+ the arm in gazebo falls: the error was that it used EffortJointInterface and it should use the PositionJointInterface
  
  
-As much as I have tried, the arm in gazebo falls to the ground, even if the controller is activated. I have tested various inertia models from other examples with the same result.Step by step...
  
+
+ 
+
 
 
 
